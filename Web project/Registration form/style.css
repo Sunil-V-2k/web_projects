@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+    margin: 20px;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+  }
+  button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #45a049;
+  }
+  footer {
+    position:static;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 38vh;
+  }
+  form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

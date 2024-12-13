@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .resume {
+            display: flex;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        p{
+            text-align: justify;
+            line-height: 25px;
+        }
+
+        .left {
+            width: 30%;
+            background: #003366;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .left h1 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+
+        .left h2 {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            font-weight: normal;
+            color: #ddd;
+        }
+
+        .left .contact, .left .education, .left .skills, .left .languages {
+            margin-bottom: 20px;
+            line-height: 3.6vh;
+        }
+
+        .left h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+        }
+
+        .left ul {
+            list-style: none;
+            padding: 0;
+            font-size: 0.9rem;
+        }
+
+        .left ul li {
+            margin-bottom: 10px;
+        }
+
+        .left ul li i {
+            color: #00bcd4;
+            margin-right: 10px;
+        }
+        
+        .right {
+            width: 70%;
+            padding: 30px;
+        }
+
+        .right h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            color: #003366;
+        }
+
+        .right h2 {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .right .section {
+            margin-bottom: 20px;
+        }
+
+        .right .section h3 {
+            font-size: 1.2rem;
+            color: #003366;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .right .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .right .section ul li {
+            margin-bottom: 15px;
+            line-height: 3.6vh;
+        }
+
+        .right .section ul li .title {
+            font-weight: bold;
+            color: #003366;
+            line-height: 3.6vh;
+        }
+
+        .right .section ul li .duration {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .right .section ul li p {
+            margin: 5px 0;
+        }
+
+        .right .section ul li ul {
+            margin: 5px 0 0 15px;
+        }
+
+        .right .section ul li ul li {
+            font-size: 0.9rem;
+            color: #555;
+            list-style: disc;
+        }
+
+        .reference {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .reference div {
+            width: 48%;
+        }
+
+        .reference h4 {
+            font-size: 1rem;
+            color: #003366;
+            margin-bottom: 5px;
+        }
+
+        .reference p {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Left Section -->
+        <div class="left">
+            <img src="Sunil.jpg" alt="Profile Picture">
+            <h1>Sunil</h1>
+            <h2>Design Engineer</h2>
+
+            <div class="contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i>9739014528 </li>
+                    <li><i class="fas fa-envelope"></i>sunil@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i>Shimoga</li>
+                    <li><a href="https://www.linkedin.com/company/login"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                    <!-- <li><i class="fas fa-globe"></i> www.example.com</li> -->
+                </ul>
+            </div>
+
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <strong>2020-2023</strong><br> 
+                        Acharya Institute of Technology<br> 
+                        Diploma in Aeronautical engineering
+                    </li>
+                    <li>
+                        <strong>2023 - 2026</strong><br> 
+                        JNNCE<br> 
+                        Bachelor of Engineering in Computer Science 
+                    </li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Project Management</li>
+                    <li>Python</li>
+                    <li>JAVA</li>
+                    <li>Teamwork</li>
+                    <li>CAD</li>
+                </ul>
+            </div>
+
+            <div class="languages">
+                <h3>Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Kannada</li>
+                    <!-- <li>Spanish (Intermediate)</li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right">
+            <h1>Sunil</h1>
+            <h2>Design Engineer</h2>
+
+            <div class="section">
+                <h3>Profile</h3>
+                <p>
+                    Dedicated and enthusiastic student of computer science engineering possessing an extensive expertise in problem-solving, software development, and programming. proficient in Python, Java, and C, and turning into conversant about data science and web development. competent in group projects, fast to pick up new technology, and passionate about developing fresh ideas. To succeed in the IT sector, skills are presently being enhanced by means of practical projects and constant training.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>
+                        <span class="title">XYZ</span> - <span class="duration">2023</span>
+                        <p>Designing and tooling supervisor</p>
+                        <ul>
+                            <li>Manages the design, maintenance and other equipment used in manufacturing.</li>
+                            <li>Creating digital models, drawings, and blueprints for a variety of components</li>
+                            <!-- <li></li> -->
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="title">ABC</span> - <span class="duration">2019 - 2020</span>
+                        <p>CNC Machine Programmer</p>
+                        <ul>
+                            <li>Writing code: Developing programs that instruct the CNC machine on how to cut, drill, or mill materials</li>
+                            <li>Setting up machines: Ensuring the CNC machine is set up and calibrated correctly</li>
+                            <!-- <li></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section reference">
+                <div>
+                    <h4></h4>
+                    <p></p>
+                    <p>Phone:</p>
+                    <p>Email:</p>
+                </div>
+                <div>
+                    <h4></h4>
+                    <p></p>
+                    <p>Phone: </p>
+                    <p>Email: </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skill progress-bar -->
+    <script>
+        function renderSkills(skills) {
+            return skills.map(skill => `
+                <div class="skill">
+                    <span class="skill-name">${skill.name}</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: ${skill.level}%;" data-level="${skill.level}"></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            const progressBars = document.querySelectorAll('.progress');
+            progressBars.forEach(bar => {
+                const level = bar.getAttribute('data-level');
+                bar.style.width = '0';
+                setTimeout(() => {
+                    bar.style.width = `${level}%`;
+                }, 200);
+            });
+        });
+ 
+        const skills = [
+            { name: 'Project Management', level: 85 },
+            { name: 'Python', level: 70 },
+            { name: 'Java', level: 75 },
+            { name: 'Teamwork', level: 80 },
+            { name: 'CAD', level: 90 }
+        ];
+    
+        document.querySelector('.skills').innerHTML = `
+            <h3>Skills</h3>
+            ${renderSkills(skills)}
+        `;
+    </script>
+    <style>
+        .skill {
+            margin-bottom: 10px;
+        }
+    
+        .skill-name {
+            font-size: 0.9rem;
+            color: #ffffff;
+        }
+    
+        .progress-bar {
+            background: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 8px;
+            margin-top: 5px;
+        }
+    
+        .progress {
+            height: 100%;
+            background: #00e6ff;
+            transition: width 5s ease;
+        }
+    </style>
+
+        <!-- dark mode -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            themeToggle.addEventListener('click', () => {
+                document.body.classList.toggle('dark-theme');
+            });
+        });
+    </script>
+    <style>
+        .theme-switcher {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #272c31;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        body.dark-theme {
+            background-color: #222;
+            color: #ddd;
+        }
+
+        a {
+            margin-bottom: 10px;
+            color: #ddd;
+        }
+
+        .dark-theme .right h2 {
+            font-size: 1rem;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+
+        .dark-theme .right .section ul li ul li {
+            font-size: 0.9rem;
+            color: #ddd;
+            list-style: disc;
+        }
+
+        .dark-theme .section ul li .duration {
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        body.dark-theme .resume {
+            background: #333;
+            color: #ddd;
+            box-shadow: 0px 5px 2px rgba(67, 65, 65, 0.1)
+        }
+
+        body.dark-theme .left {
+            /* background: linear-gradient(135deg, #1a1a1a, #333); */
+            background: linear-gradient(to right,#343434, #3a3939);
+        }
+
+        .dark-theme .right {
+            width: 70%;
+            padding: 30px;
+            background: linear-gradient(to right,#343434, #4c4b4b);
+        }
+
+        body.dark-theme .progress {
+            background: #00ff99;
+        }
+
+        .dark-theme .reference p {
+            font-size: 0.9rem;
+            color: #ddd;
+            margin: 0;
+        }
+
+        .dark-theme .right .section h3 {
+            font-size: 1.2rem;
+            color: #00bcd4;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .dark-theme .right h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            color: #00bcd4;
+        }
+
+        .dark-theme .right .section ul li .title {
+            font-weight: bold;
+            color: #00bcd4;
+            line-height: 3.6vh;
+        }
+    </style>
+
+    <div id="theme-toggle" class="theme-switcher">Dark mode</div>    
+</body>
+</html>
